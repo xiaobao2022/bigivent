@@ -43,3 +43,7 @@ $("#btnLogout").on("click", function () {
 })
 
 getUserInfo()//调佣函数
+
+function change() {
+    $("#change").attr("class", "layui-this").next().attr("class", "")
+}
